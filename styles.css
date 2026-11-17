@@ -1,0 +1,59 @@
+/* =====================================================================
+   styles.css  ·  YOUR BRAND
+   ---------------------------------------------------------------------
+   This one file is your brand guide. Every page that links to it gets
+   the same font, the same colors and the same spacing.
+   Change a color here once, and every page changes.
+
+   Use the same font and colors you picked for your Excel menu images,
+   so the menu and the pages look like one brand.
+   ===================================================================== */
+
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    background-color: #f4efe6;
+    color: #2b2b2b;
+    margin: 0;
+    padding: 0 20px 40px 20px;
+}
+
+/* the menu at the top of every page */
+nav {
+    background-color: #2b5d8c;
+    padding: 14px;
+    text-align: center;
+}
+
+/* every image inside the menu is forced to the same height.
+   If your images still look different sizes, their WIDTHS are
+   different: go back to Excel and make every cell the same size. */
+nav img {
+    height: 50px;
+    margin: 4px;
+    vertical-align: middle;
+}
+
+/* no underline or border around the image links */
+nav a {
+    text-decoration: none;
+}
+
+h1 {
+    color: #2b5d8c;
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    max-width: 600px;
+    margin: 20px auto;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #777777;
+    margin-top: 40px;
+}
